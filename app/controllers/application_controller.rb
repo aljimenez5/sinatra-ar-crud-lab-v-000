@@ -38,5 +38,7 @@ class ApplicationController < Sinatra::Base
   
   patch '/posts/:id'
   
+  end
+  
   
 end
