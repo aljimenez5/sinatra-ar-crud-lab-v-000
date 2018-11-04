@@ -37,6 +37,7 @@ class ApplicationController < Sinatra::Base
   end
   
   patch '/posts/:id' do
+    binding.pry
     @post = Post.update(name: params[:name], content: params[:content])
     
     redirect "/posts/'#{:id}'"
