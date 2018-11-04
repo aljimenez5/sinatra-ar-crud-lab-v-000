@@ -35,6 +35,6 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
   
-  
+  put ''
   
 end
